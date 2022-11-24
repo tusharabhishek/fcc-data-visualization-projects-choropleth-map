@@ -116,8 +116,10 @@ export default function createGraph(educationData, countyData) {
 // merges the two data together
 
 function mergeData(educationData, featureData) {
-  const sortedEducationData = d3.sort(educationData, (a, b) => a.fips - b.fips);
-  const sortedFeatureData = d3.sort(featureData, (a, b) => a.id - b.id);
+  const sortedEducationData =
+    educationData.slice().sort((a, b) => a.fips - b.fips);
+  const sortedFeatureData =
+    featureData.slice().sort((a, b) => a.id - b.id);
 
   return d3.zip(sortedEducationData, sortedFeatureData);
 }
