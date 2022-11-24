@@ -1,7 +1,27 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  background-color: rgb(153, 175, 179);
+  text-align: center;
 }
 
 svg {
-  border: 1px dotted black;
+  display: block;
+  margin: auto;
+}
+
+#tooltip {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  background: linear-gradient(rgb(160, 142, 240), rgb(209, 208, 228));
+  border-radius: 1rem;
+}
+
+#tooltip p {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 0.5rem;
 }
