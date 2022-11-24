@@ -1,0 +1,27 @@
+{
+  "name": "choropleth-map",
+  "version": "1.0.0",
+  "description": "freeCodeCamp Data Visualization Project: Visualize Data with a Choropleth Map",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "build-github": "rm -rf docs/* && parcel build --public-url ./ --dist-dir docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "freecodecamp",
+    "data-visualization",
+    "choropleth-map"
+  ],
+  "author": "Tushar Abhishek",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "@types/d3": "^7.4.0",
+    "d3": "^7.6.1",
+    "topojson-client": "^3.1.0"
+  }
+}
