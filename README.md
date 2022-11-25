@@ -2,6 +2,6 @@
 
 My solution to one of the data visualization projects at [freeCodeCamp](https://www.freecodecamp.org/).
 
-`src/` contains the actual source files written to create the project.
+The created webpage can be viewed [here](https://tusharabhishek.github.io/fcc-data-visualization-projects-choropleth-map/).
 
-`dist/` contains the bundled version of the project.
+`src/` contains the actual source files written to create the project.
