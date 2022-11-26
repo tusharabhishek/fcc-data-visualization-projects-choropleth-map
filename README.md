@@ -2,6 +2,6 @@
 
 My solution to one of the data visualization projects at [freeCodeCamp](https://www.freecodecamp.org/).
 
-The created webpage can be viewed [here](https://tusharabhishek.github.io/fcc-data-visualization-projects-choropleth-map/).
+Webpage can be viewed [here](https://tusharabhishek.github.io/fcc-data-visualization-projects-choropleth-map/).
 
 `src/` contains the actual source files written to create the project.
